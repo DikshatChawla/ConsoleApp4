@@ -10,6 +10,16 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
+            int sum = 0;
+            int i = 0;
+            while ( i<6 )
+            {
+                i++;
+                sum += 1;
+            }
+            Console.WriteLine(sum);
+            Console.ReadLine();
+            //C073121DikshatChawla
         }
     }
 }
